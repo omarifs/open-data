@@ -1,0 +1,2058 @@
+[
+ {
+   "kode": 11.01,
+   "wilayah": "KAB. ACEH SELATAN"
+ },
+ {
+   "kode": 11.02,
+   "wilayah": "KAB. ACEH TENGGARA"
+ },
+ {
+   "kode": 11.03,
+   "wilayah": "KAB. ACEH TIMUR"
+ },
+ {
+   "kode": 11.04,
+   "wilayah": "KAB. ACEH TENGAH"
+ },
+ {
+   "kode": 11.05,
+   "wilayah": "KAB. ACEH BARAT"
+ },
+ {
+   "kode": 11.06,
+   "wilayah": "KAB. ACEH BESAR"
+ },
+ {
+   "kode": 11.07,
+   "wilayah": "KAB. PIDIE"
+ },
+ {
+   "kode": 11.08,
+   "wilayah": "KAB. ACEH UTARA"
+ },
+ {
+   "kode": 11.09,
+   "wilayah": "KAB. SIMEULUE"
+ },
+ {
+   "kode": 11.1,
+   "wilayah": "KAB. ACEH SINGKIL"
+ },
+ {
+   "kode": 11.11,
+   "wilayah": "KAB. BIREUEN"
+ },
+ {
+   "kode": 11.12,
+   "wilayah": "KAB. ACEH BARAT DAYA"
+ },
+ {
+   "kode": 11.13,
+   "wilayah": "KAB. GAYO LUES"
+ },
+ {
+   "kode": 11.14,
+   "wilayah": "KAB. ACEH JAYA"
+ },
+ {
+   "kode": 11.15,
+   "wilayah": "KAB. NAGAN RAYA"
+ },
+ {
+   "kode": 11.16,
+   "wilayah": "KAB. ACEH TAMIANG"
+ },
+ {
+   "kode": 11.17,
+   "wilayah": "KAB. BENER MERIAH"
+ },
+ {
+   "kode": 11.18,
+   "wilayah": "KAB. PIDIE JAYA"
+ },
+ {
+   "kode": 11.71,
+   "wilayah": "KOTA BANDA ACEH"
+ },
+ {
+   "kode": 11.72,
+   "wilayah": "KOTA SABANG"
+ },
+ {
+   "kode": 11.73,
+   "wilayah": "KOTA LHOKSEUMAWE"
+ },
+ {
+   "kode": 11.74,
+   "wilayah": "KOTA LANGSA"
+ },
+ {
+   "kode": 11.75,
+   "wilayah": "KOTA SUBULUSSALAM"
+ },
+ {
+   "kode": 12.01,
+   "wilayah": "KAB. TAPANULI TENGAH"
+ },
+ {
+   "kode": 12.02,
+   "wilayah": "KAB. TAPANULI UTARA"
+ },
+ {
+   "kode": 12.03,
+   "wilayah": "KAB. TAPANULI SELATAN"
+ },
+ {
+   "kode": 12.04,
+   "wilayah": "KAB. NIAS"
+ },
+ {
+   "kode": 12.05,
+   "wilayah": "KAB. LANGKAT"
+ },
+ {
+   "kode": 12.06,
+   "wilayah": "KAB. KARO"
+ },
+ {
+   "kode": 12.07,
+   "wilayah": "KAB. DELI SERDANG"
+ },
+ {
+   "kode": 12.08,
+   "wilayah": "KAB. SIMALUNGUN"
+ },
+ {
+   "kode": 12.09,
+   "wilayah": "KAB. ASAHAN"
+ },
+ {
+   "kode": 12.1,
+   "wilayah": "KAB. LABUHANBATU"
+ },
+ {
+   "kode": 12.11,
+   "wilayah": "KAB. DAIRI"
+ },
+ {
+   "kode": 12.12,
+   "wilayah": "KAB. TOBA SAMOSIR"
+ },
+ {
+   "kode": 12.13,
+   "wilayah": "KAB. MANDAILING NATAL"
+ },
+ {
+   "kode": 12.14,
+   "wilayah": "KAB. NIAS SELATAN"
+ },
+ {
+   "kode": 12.15,
+   "wilayah": "KAB. PAKPAK BHARAT"
+ },
+ {
+   "kode": 12.16,
+   "wilayah": "KAB. HUMBANG HASUNDUTAN"
+ },
+ {
+   "kode": 12.17,
+   "wilayah": "KAB. SAMOSIR"
+ },
+ {
+   "kode": 12.18,
+   "wilayah": "KAB. SERDANG BEDAGAI"
+ },
+ {
+   "kode": 12.19,
+   "wilayah": "KAB. BATU BARA"
+ },
+ {
+   "kode": 12.2,
+   "wilayah": "KAB. PADANG LAWAS UTARA"
+ },
+ {
+   "kode": 12.21,
+   "wilayah": "KAB. PADANG LAWAS"
+ },
+ {
+   "kode": 12.22,
+   "wilayah": "KAB. LABUHANBATU SELATAN"
+ },
+ {
+   "kode": 12.23,
+   "wilayah": "KAB. LABUHANBATU UTARA"
+ },
+ {
+   "kode": 12.24,
+   "wilayah": "KAB. NIAS UTARA"
+ },
+ {
+   "kode": 12.25,
+   "wilayah": "KAB. NIAS BARAT"
+ },
+ {
+   "kode": 12.71,
+   "wilayah": "KOTA MEDAN"
+ },
+ {
+   "kode": 12.72,
+   "wilayah": "KOTA PEMATANGSIANTAR"
+ },
+ {
+   "kode": 12.73,
+   "wilayah": "KOTA SIBOLGA"
+ },
+ {
+   "kode": 12.74,
+   "wilayah": "KOTA TANJUNG BALAI"
+ },
+ {
+   "kode": 12.75,
+   "wilayah": "KOTA BINJAI"
+ },
+ {
+   "kode": 12.76,
+   "wilayah": "KOTA TEBING TINGGI"
+ },
+ {
+   "kode": 12.77,
+   "wilayah": "KOTA PADANG SIDEMPUAN"
+ },
+ {
+   "kode": 12.78,
+   "wilayah": "KOTA GUNUNGSITOLI"
+ },
+ {
+   "kode": 13.01,
+   "wilayah": "KAB. PESISIR SELATAN"
+ },
+ {
+   "kode": 13.02,
+   "wilayah": "KAB. SOLOK"
+ },
+ {
+   "kode": 13.03,
+   "wilayah": "KAB. SIJUNJUNG"
+ },
+ {
+   "kode": 13.04,
+   "wilayah": "KAB. TANAH DATAR"
+ },
+ {
+   "kode": 13.05,
+   "wilayah": "KAB. PADANG PARIAMAN"
+ },
+ {
+   "kode": 13.06,
+   "wilayah": "KAB. AGAM"
+ },
+ {
+   "kode": 13.07,
+   "wilayah": "KAB. LIMA PULUH KOTA"
+ },
+ {
+   "kode": 13.08,
+   "wilayah": "KAB. PASAMAN"
+ },
+ {
+   "kode": 13.09,
+   "wilayah": "KAB. KEPULAUAN MENTAWAI"
+ },
+ {
+   "kode": 13.1,
+   "wilayah": "KAB. DHARMASRAYA"
+ },
+ {
+   "kode": 13.11,
+   "wilayah": "KAB. SOLOK SELATAN"
+ },
+ {
+   "kode": 13.12,
+   "wilayah": "KAB. PASAMAN BARAT"
+ },
+ {
+   "kode": 13.71,
+   "wilayah": "KOTA PADANG"
+ },
+ {
+   "kode": 13.72,
+   "wilayah": "KOTA SOLOK"
+ },
+ {
+   "kode": 13.73,
+   "wilayah": "KOTA SAWAHLUNTO"
+ },
+ {
+   "kode": 13.74,
+   "wilayah": "KOTA PADANG PANJANG"
+ },
+ {
+   "kode": 13.75,
+   "wilayah": "KOTA BUKITTINGGI"
+ },
+ {
+   "kode": 13.76,
+   "wilayah": "KOTA PAYAKUMBUH"
+ },
+ {
+   "kode": 13.77,
+   "wilayah": "KOTA PARIAMAN"
+ },
+ {
+   "kode": 14.01,
+   "wilayah": "KAB. KAMPAR"
+ },
+ {
+   "kode": 14.02,
+   "wilayah": "KAB. INDRAGIRI HULU"
+ },
+ {
+   "kode": 14.03,
+   "wilayah": "KAB. BENGKALIS"
+ },
+ {
+   "kode": 14.04,
+   "wilayah": "KAB. INDRAGIRI HILIR"
+ },
+ {
+   "kode": 14.05,
+   "wilayah": "KAB. PELALAWAN"
+ },
+ {
+   "kode": 14.06,
+   "wilayah": "KAB. ROKAN HULU"
+ },
+ {
+   "kode": 14.07,
+   "wilayah": "KAB. ROKAN HILIR"
+ },
+ {
+   "kode": 14.08,
+   "wilayah": "KAB. SIAK"
+ },
+ {
+   "kode": 14.09,
+   "wilayah": "KAB. KUANTAN SINGINGI"
+ },
+ {
+   "kode": 14.1,
+   "wilayah": "KAB. KEPULAUAN MERANTI"
+ },
+ {
+   "kode": 14.71,
+   "wilayah": "KOTA PEKANBARU"
+ },
+ {
+   "kode": 14.72,
+   "wilayah": "KOTA DUMAI"
+ },
+ {
+   "kode": 15.01,
+   "wilayah": "KAB. KERINCI"
+ },
+ {
+   "kode": 15.02,
+   "wilayah": "KAB. MERANGIN"
+ },
+ {
+   "kode": 15.03,
+   "wilayah": "KAB. SAROLANGUN"
+ },
+ {
+   "kode": 15.04,
+   "wilayah": "KAB. BATANGHARI"
+ },
+ {
+   "kode": 15.05,
+   "wilayah": "KAB. MUARO JAMBI"
+ },
+ {
+   "kode": 15.06,
+   "wilayah": "KAB. TANJUNG JABUNG BARAT"
+ },
+ {
+   "kode": 15.07,
+   "wilayah": "KAB. TANJUNG JABUNG TIMUR"
+ },
+ {
+   "kode": 15.08,
+   "wilayah": "KAB. BUNGO"
+ },
+ {
+   "kode": 15.09,
+   "wilayah": "KAB. TEBO"
+ },
+ {
+   "kode": 15.71,
+   "wilayah": "KOTA JAMBI"
+ },
+ {
+   "kode": 15.72,
+   "wilayah": "KOTA SUNGAI PENUH"
+ },
+ {
+   "kode": 16.01,
+   "wilayah": "KAB. OGAN KOMERING ULU"
+ },
+ {
+   "kode": 16.02,
+   "wilayah": "KAB. OGAN KOMERING ILIR"
+ },
+ {
+   "kode": 16.03,
+   "wilayah": "KAB. MUARA ENIM"
+ },
+ {
+   "kode": 16.04,
+   "wilayah": "KAB. LAHAT"
+ },
+ {
+   "kode": 16.05,
+   "wilayah": "KAB. MUSI RAWAS"
+ },
+ {
+   "kode": 16.06,
+   "wilayah": "KAB. MUSI BANYUASIN"
+ },
+ {
+   "kode": 16.07,
+   "wilayah": "KAB. BANYUASIN"
+ },
+ {
+   "kode": 16.08,
+   "wilayah": "KAB. OGAN KOMERING ULUTIMUR"
+ },
+ {
+   "kode": 16.09,
+   "wilayah": "KAB. OGAN KOMERING ULUSELATAN"
+ },
+ {
+   "kode": 16.1,
+   "wilayah": "KAB. OGAN ILIR"
+ },
+ {
+   "kode": 16.11,
+   "wilayah": "KAB. EMPAT LAWANG"
+ },
+ {
+   "kode": 16.12,
+   "wilayah": "KAB. PENUKAL ABAB LEMATANGILIR"
+ },
+ {
+   "kode": 16.13,
+   "wilayah": "KAB. MUSI RAWAS UTARA"
+ },
+ {
+   "kode": 16.71,
+   "wilayah": "KOTA PALEMBANG"
+ },
+ {
+   "kode": 16.72,
+   "wilayah": "KOTA PAGAR ALAM"
+ },
+ {
+   "kode": 16.73,
+   "wilayah": "KOTA LUBUK LINGGAU"
+ },
+ {
+   "kode": 16.74,
+   "wilayah": "KOTA PRABUMULIH"
+ },
+ {
+   "kode": 17.01,
+   "wilayah": "KAB. BENGKULU SELATAN"
+ },
+ {
+   "kode": 17.02,
+   "wilayah": "KAB. REJANG LEBONG"
+ },
+ {
+   "kode": 17.03,
+   "wilayah": "KAB. BENGKULU UTARA"
+ },
+ {
+   "kode": 17.04,
+   "wilayah": "KAB. KAUR"
+ },
+ {
+   "kode": 17.05,
+   "wilayah": "KAB. SELUMA"
+ },
+ {
+   "kode": 17.06,
+   "wilayah": "KAB. MUKO MUKO"
+ },
+ {
+   "kode": 17.07,
+   "wilayah": "KAB. LEBONG"
+ },
+ {
+   "kode": 17.08,
+   "wilayah": "KAB. KEPAHIANG"
+ },
+ {
+   "kode": 17.09,
+   "wilayah": "KAB. BENGKULU TENGAH"
+ },
+ {
+   "kode": 17.71,
+   "wilayah": "KOTA BENGKULU"
+ },
+ {
+   "kode": 18.01,
+   "wilayah": "KAB. LAMPUNG SELATAN"
+ },
+ {
+   "kode": 18.02,
+   "wilayah": "KAB. LAMPUNG TENGAH"
+ },
+ {
+   "kode": 18.03,
+   "wilayah": "KAB. LAMPUNG UTARA"
+ },
+ {
+   "kode": 18.04,
+   "wilayah": "KAB. LAMPUNG BARAT"
+ },
+ {
+   "kode": 18.05,
+   "wilayah": "KAB. TULANG BAWANG"
+ },
+ {
+   "kode": 18.06,
+   "wilayah": "KAB. TANGGAMUS"
+ },
+ {
+   "kode": 18.07,
+   "wilayah": "KAB. LAMPUNG TIMUR"
+ },
+ {
+   "kode": 18.08,
+   "wilayah": "KAB. WAY KANAN"
+ },
+ {
+   "kode": 18.09,
+   "wilayah": "KAB. PESAWARAN"
+ },
+ {
+   "kode": 18.1,
+   "wilayah": "KAB. PRINGSEWU"
+ },
+ {
+   "kode": 18.11,
+   "wilayah": "KAB. MESUJI"
+ },
+ {
+   "kode": 18.12,
+   "wilayah": "KAB. TULANG BAWANG BARAT"
+ },
+ {
+   "kode": 18.13,
+   "wilayah": "KAB. PESISIR BARAT"
+ },
+ {
+   "kode": 18.71,
+   "wilayah": "KOTA BANDAR LAMPUNG"
+ },
+ {
+   "kode": 18.72,
+   "wilayah": "KOTA METRO"
+ },
+ {
+   "kode": 19.01,
+   "wilayah": "KAB. BANGKA"
+ },
+ {
+   "kode": 19.02,
+   "wilayah": "KAB. BELITUNG"
+ },
+ {
+   "kode": 19.03,
+   "wilayah": "KAB. BANGKA SELATAN"
+ },
+ {
+   "kode": 19.04,
+   "wilayah": "KAB. BANGKA TENGAH"
+ },
+ {
+   "kode": 19.05,
+   "wilayah": "KAB. BANGKA BARAT"
+ },
+ {
+   "kode": 19.06,
+   "wilayah": "KAB. BELITUNG TIMUR"
+ },
+ {
+   "kode": 19.71,
+   "wilayah": "KOTA PANGKAL PINANG"
+ },
+ {
+   "kode": 21.01,
+   "wilayah": "KAB. BINTAN"
+ },
+ {
+   "kode": 21.02,
+   "wilayah": "KAB. KARIMUN"
+ },
+ {
+   "kode": 21.03,
+   "wilayah": "KAB. NATUNA"
+ },
+ {
+   "kode": 21.04,
+   "wilayah": "KAB. LINGGA"
+ },
+ {
+   "kode": 21.05,
+   "wilayah": "KAB. KEPULAUAN ANAMBAS"
+ },
+ {
+   "kode": 21.71,
+   "wilayah": "KOTA BATAM"
+ },
+ {
+   "kode": 21.72,
+   "wilayah": "KOTA TANJUNG PINANG"
+ },
+ {
+   "kode": 31.01,
+   "wilayah": "KAB. ADM. KEP. SERIBU"
+ },
+ {
+   "kode": 31.71,
+   "wilayah": "KOTA ADM. JAKARTA PUSAT"
+ },
+ {
+   "kode": 31.72,
+   "wilayah": "KOTA ADM. JAKARTA UTARA"
+ },
+ {
+   "kode": 31.73,
+   "wilayah": "KOTA ADM. JAKARTA BARAT"
+ },
+ {
+   "kode": 31.74,
+   "wilayah": "KOTA ADM. JAKARTA SELATAN"
+ },
+ {
+   "kode": 31.75,
+   "wilayah": "KOTA ADM. JAKARTA TIMUR"
+ },
+ {
+   "kode": 32.01,
+   "wilayah": "KAB. BOGOR"
+ },
+ {
+   "kode": 32.02,
+   "wilayah": "KAB. SUKABUMI"
+ },
+ {
+   "kode": 32.03,
+   "wilayah": "KAB. CIANJUR"
+ },
+ {
+   "kode": 32.04,
+   "wilayah": "KAB. BANDUNG"
+ },
+ {
+   "kode": 32.05,
+   "wilayah": "KAB. GARUT"
+ },
+ {
+   "kode": 32.06,
+   "wilayah": "KAB. TASIKMALAYA"
+ },
+ {
+   "kode": 32.07,
+   "wilayah": "KAB. CIAMIS"
+ },
+ {
+   "kode": 32.08,
+   "wilayah": "KAB. KUNINGAN"
+ },
+ {
+   "kode": 32.09,
+   "wilayah": "KAB. CIREBON"
+ },
+ {
+   "kode": 32.1,
+   "wilayah": "KAB. MAJALENGKA"
+ },
+ {
+   "kode": 32.11,
+   "wilayah": "KAB. SUMEDANG"
+ },
+ {
+   "kode": 32.12,
+   "wilayah": "KAB. INDRAMAYU"
+ },
+ {
+   "kode": 32.13,
+   "wilayah": "KAB. SUBANG"
+ },
+ {
+   "kode": 32.14,
+   "wilayah": "KAB. PURWAKARTA"
+ },
+ {
+   "kode": 32.15,
+   "wilayah": "KAB. KARAWANG"
+ },
+ {
+   "kode": 32.16,
+   "wilayah": "KAB. BEKASI"
+ },
+ {
+   "kode": 32.17,
+   "wilayah": "KAB. BANDUNG BARAT"
+ },
+ {
+   "kode": 32.18,
+   "wilayah": "KAB. PANGANDARAN"
+ },
+ {
+   "kode": 32.71,
+   "wilayah": "KOTA BOGOR"
+ },
+ {
+   "kode": 32.72,
+   "wilayah": "KOTA SUKABUMI"
+ },
+ {
+   "kode": 32.73,
+   "wilayah": "KOTA BANDUNG"
+ },
+ {
+   "kode": 32.74,
+   "wilayah": "KOTA CIREBON"
+ },
+ {
+   "kode": 32.75,
+   "wilayah": "KOTA BEKASI"
+ },
+ {
+   "kode": 32.76,
+   "wilayah": "KOTA DEPOK"
+ },
+ {
+   "kode": 32.77,
+   "wilayah": "KOTA CIMAHI"
+ },
+ {
+   "kode": 32.78,
+   "wilayah": "KOTA TASIKMALAYA"
+ },
+ {
+   "kode": 32.79,
+   "wilayah": "KOTA BANJAR"
+ },
+ {
+   "kode": 33.01,
+   "wilayah": "KAB. CILACAP"
+ },
+ {
+   "kode": 33.02,
+   "wilayah": "KAB. BANYUMAS"
+ },
+ {
+   "kode": 33.03,
+   "wilayah": "KAB. PURBALINGGA"
+ },
+ {
+   "kode": 33.04,
+   "wilayah": "KAB. BANJARNEGARA"
+ },
+ {
+   "kode": 33.05,
+   "wilayah": "KAB. KEBUMEN"
+ },
+ {
+   "kode": 33.06,
+   "wilayah": "KAB. PURWOREJO"
+ },
+ {
+   "kode": 33.07,
+   "wilayah": "KAB. WONOSOBO"
+ },
+ {
+   "kode": 33.08,
+   "wilayah": "KAB. MAGELANG"
+ },
+ {
+   "kode": 33.09,
+   "wilayah": "KAB. BOYOLALI"
+ },
+ {
+   "kode": 33.1,
+   "wilayah": "KAB. KLATEN"
+ },
+ {
+   "kode": 33.11,
+   "wilayah": "KAB. SUKOHARJO"
+ },
+ {
+   "kode": 33.12,
+   "wilayah": "KAB. WONOGIRI"
+ },
+ {
+   "kode": 33.13,
+   "wilayah": "KAB. KARANGANYAR"
+ },
+ {
+   "kode": 33.14,
+   "wilayah": "KAB. SRAGEN"
+ },
+ {
+   "kode": 33.15,
+   "wilayah": "KAB. GROBOGAN"
+ },
+ {
+   "kode": 33.16,
+   "wilayah": "KAB. BLORA"
+ },
+ {
+   "kode": 33.17,
+   "wilayah": "KAB. REMBANG"
+ },
+ {
+   "kode": 33.18,
+   "wilayah": "KAB. PATI"
+ },
+ {
+   "kode": 33.19,
+   "wilayah": "KAB. KUDUS"
+ },
+ {
+   "kode": 33.2,
+   "wilayah": "KAB. JEPARA"
+ },
+ {
+   "kode": 33.21,
+   "wilayah": "KAB. DEMAK"
+ },
+ {
+   "kode": 33.22,
+   "wilayah": "KAB. SEMARANG"
+ },
+ {
+   "kode": 33.23,
+   "wilayah": "KAB. TEMANGGUNG"
+ },
+ {
+   "kode": 33.24,
+   "wilayah": "KAB. KENDAL"
+ },
+ {
+   "kode": 33.25,
+   "wilayah": "KAB. BATANG"
+ },
+ {
+   "kode": 33.26,
+   "wilayah": "KAB. PEKALONGAN"
+ },
+ {
+   "kode": 33.27,
+   "wilayah": "KAB. PEMALANG"
+ },
+ {
+   "kode": 33.28,
+   "wilayah": "KAB. TEGAL"
+ },
+ {
+   "kode": 33.29,
+   "wilayah": "KAB. BREBES"
+ },
+ {
+   "kode": 33.71,
+   "wilayah": "KOTA MAGELANG"
+ },
+ {
+   "kode": 33.72,
+   "wilayah": "KOTA SURAKARTA"
+ },
+ {
+   "kode": 33.73,
+   "wilayah": "KOTA SALATIGA"
+ },
+ {
+   "kode": 33.74,
+   "wilayah": "KOTA SEMARANG"
+ },
+ {
+   "kode": 33.75,
+   "wilayah": "KOTA PEKALONGAN"
+ },
+ {
+   "kode": 33.76,
+   "wilayah": "KOTA TEGAL"
+ },
+ {
+   "kode": 34.01,
+   "wilayah": "KAB. KULON PROGO"
+ },
+ {
+   "kode": 34.02,
+   "wilayah": "KAB. BANTUL"
+ },
+ {
+   "kode": 34.03,
+   "wilayah": "KAB. GUNUNGKIDUL"
+ },
+ {
+   "kode": 34.04,
+   "wilayah": "KAB. SLEMAN"
+ },
+ {
+   "kode": 34.71,
+   "wilayah": "KOTA YOGYAKARTA"
+ },
+ {
+   "kode": 35.01,
+   "wilayah": "KAB. PACITAN"
+ },
+ {
+   "kode": 35.02,
+   "wilayah": "KAB. PONOROGO"
+ },
+ {
+   "kode": 35.03,
+   "wilayah": "KAB. TRENGGALEK"
+ },
+ {
+   "kode": 35.04,
+   "wilayah": "KAB. TULUNGAGUNG"
+ },
+ {
+   "kode": 35.05,
+   "wilayah": "KAB. BLITAR"
+ },
+ {
+   "kode": 35.06,
+   "wilayah": "KAB. KEDIRI"
+ },
+ {
+   "kode": 35.07,
+   "wilayah": "KAB. MALANG"
+ },
+ {
+   "kode": 35.08,
+   "wilayah": "KAB. LUMAJANG"
+ },
+ {
+   "kode": 35.09,
+   "wilayah": "KAB. JEMBER"
+ },
+ {
+   "kode": 35.1,
+   "wilayah": "KAB. BANYUWANGI"
+ },
+ {
+   "kode": 35.11,
+   "wilayah": "KAB. BONDOWOSO"
+ },
+ {
+   "kode": 35.12,
+   "wilayah": "KAB. SITUBONDO"
+ },
+ {
+   "kode": 35.13,
+   "wilayah": "KAB. PROBOLINGGO"
+ },
+ {
+   "kode": 35.14,
+   "wilayah": "KAB. PASURUAN"
+ },
+ {
+   "kode": 35.15,
+   "wilayah": "KAB. SIDOARJO"
+ },
+ {
+   "kode": 35.16,
+   "wilayah": "KAB. MOJOKERTO"
+ },
+ {
+   "kode": 35.17,
+   "wilayah": "KAB. JOMBANG"
+ },
+ {
+   "kode": 35.18,
+   "wilayah": "KAB. NGANJUK"
+ },
+ {
+   "kode": 35.19,
+   "wilayah": "KAB. MADIUN"
+ },
+ {
+   "kode": 35.2,
+   "wilayah": "KAB. MAGETAN"
+ },
+ {
+   "kode": 35.21,
+   "wilayah": "KAB. NGAWI"
+ },
+ {
+   "kode": 35.22,
+   "wilayah": "KAB. BOJONEGORO"
+ },
+ {
+   "kode": 35.23,
+   "wilayah": "KAB. TUBAN"
+ },
+ {
+   "kode": 35.24,
+   "wilayah": "KAB. LAMONGAN"
+ },
+ {
+   "kode": 35.25,
+   "wilayah": "KAB. GRESIK"
+ },
+ {
+   "kode": 35.26,
+   "wilayah": "KAB. BANGKALAN"
+ },
+ {
+   "kode": 35.27,
+   "wilayah": "KAB. SAMPANG"
+ },
+ {
+   "kode": 35.28,
+   "wilayah": "KAB. PAMEKASAN"
+ },
+ {
+   "kode": 35.29,
+   "wilayah": "KAB. SUMENEP"
+ },
+ {
+   "kode": 35.71,
+   "wilayah": "KOTA KEDIRI"
+ },
+ {
+   "kode": 35.72,
+   "wilayah": "KOTA BLITAR"
+ },
+ {
+   "kode": 35.73,
+   "wilayah": "KOTA MALANG"
+ },
+ {
+   "kode": 35.74,
+   "wilayah": "KOTA PROBOLINGGO"
+ },
+ {
+   "kode": 35.75,
+   "wilayah": "KOTA PASURUAN"
+ },
+ {
+   "kode": 35.76,
+   "wilayah": "KOTA MOJOKERTO"
+ },
+ {
+   "kode": 35.77,
+   "wilayah": "KOTA MADIUN"
+ },
+ {
+   "kode": 35.78,
+   "wilayah": "KOTA SURABAYA"
+ },
+ {
+   "kode": 35.79,
+   "wilayah": "KOTA BATU"
+ },
+ {
+   "kode": 36.01,
+   "wilayah": "KAB. PANDEGLANG"
+ },
+ {
+   "kode": 36.02,
+   "wilayah": "KAB. LEBAK"
+ },
+ {
+   "kode": 36.03,
+   "wilayah": "KAB. TANGERANG"
+ },
+ {
+   "kode": 36.04,
+   "wilayah": "KAB. SERANG"
+ },
+ {
+   "kode": 36.71,
+   "wilayah": "KOTA TANGERANG"
+ },
+ {
+   "kode": 36.72,
+   "wilayah": "KOTA CILEGON"
+ },
+ {
+   "kode": 36.73,
+   "wilayah": "KOTA SERANG"
+ },
+ {
+   "kode": 36.74,
+   "wilayah": "KOTA TANGERANG SELATAN"
+ },
+ {
+   "kode": 51.01,
+   "wilayah": "KAB. JEMBRANA"
+ },
+ {
+   "kode": 51.02,
+   "wilayah": "KAB. TABANAN"
+ },
+ {
+   "kode": 51.03,
+   "wilayah": "KAB. BADUNG"
+ },
+ {
+   "kode": 51.04,
+   "wilayah": "KAB. GIANYAR"
+ },
+ {
+   "kode": 51.05,
+   "wilayah": "KAB. KLUNGKUNG"
+ },
+ {
+   "kode": 51.06,
+   "wilayah": "KAB. BANGLI"
+ },
+ {
+   "kode": 51.07,
+   "wilayah": "KAB. KARANGASEM"
+ },
+ {
+   "kode": 51.08,
+   "wilayah": "KAB. BULELENG"
+ },
+ {
+   "kode": 51.71,
+   "wilayah": "KOTA DENPASAR"
+ },
+ {
+   "kode": 52.01,
+   "wilayah": "KAB. LOMBOK BARAT"
+ },
+ {
+   "kode": 52.02,
+   "wilayah": "KAB. LOMBOK TENGAH"
+ },
+ {
+   "kode": 52.03,
+   "wilayah": "KAB. LOMBOK TIMUR"
+ },
+ {
+   "kode": 52.04,
+   "wilayah": "KAB. SUMBAWA"
+ },
+ {
+   "kode": 52.05,
+   "wilayah": "KAB. DOMPU"
+ },
+ {
+   "kode": 52.06,
+   "wilayah": "KAB. BIMA"
+ },
+ {
+   "kode": 52.07,
+   "wilayah": "KAB. SUMBAWA BARAT"
+ },
+ {
+   "kode": 52.08,
+   "wilayah": "KAB. LOMBOK UTARA"
+ },
+ {
+   "kode": 52.71,
+   "wilayah": "KOTA MATARAM"
+ },
+ {
+   "kode": 52.72,
+   "wilayah": "KOTA BIMA"
+ },
+ {
+   "kode": 53.01,
+   "wilayah": "KAB. KUPANG"
+ },
+ {
+   "kode": 53.02,
+   "wilayah": "KAB TIMOR TENGAH SELATAN"
+ },
+ {
+   "kode": 53.03,
+   "wilayah": "KAB. TIMOR TENGAH UTARA"
+ },
+ {
+   "kode": 53.04,
+   "wilayah": "KAB. BELU"
+ },
+ {
+   "kode": 53.05,
+   "wilayah": "KAB. ALOR"
+ },
+ {
+   "kode": 53.06,
+   "wilayah": "KAB. FLORES TIMUR"
+ },
+ {
+   "kode": 53.07,
+   "wilayah": "KAB. SIKKA"
+ },
+ {
+   "kode": 53.08,
+   "wilayah": "KAB. ENDE"
+ },
+ {
+   "kode": 53.09,
+   "wilayah": "KAB. NGADA"
+ },
+ {
+   "kode": 53.1,
+   "wilayah": "KAB. MANGGARAI"
+ },
+ {
+   "kode": 53.11,
+   "wilayah": "KAB. SUMBA TIMUR"
+ },
+ {
+   "kode": 53.12,
+   "wilayah": "KAB. SUMBA BARAT"
+ },
+ {
+   "kode": 53.13,
+   "wilayah": "KAB. LEMBATA"
+ },
+ {
+   "kode": 53.14,
+   "wilayah": "KAB. ROTE NDAO"
+ },
+ {
+   "kode": 53.15,
+   "wilayah": "KAB. MANGGARAI BARAT"
+ },
+ {
+   "kode": 53.16,
+   "wilayah": "KAB. NAGEKEO"
+ },
+ {
+   "kode": 53.17,
+   "wilayah": "KAB. SUMBA TENGAH"
+ },
+ {
+   "kode": 53.18,
+   "wilayah": "KAB. SUMBA BARAT DAYA"
+ },
+ {
+   "kode": 53.19,
+   "wilayah": "KAB. MANGGARAI TIMUR"
+ },
+ {
+   "kode": 53.2,
+   "wilayah": "KAB. SABU RAIJUA"
+ },
+ {
+   "kode": 53.21,
+   "wilayah": "KAB. MALAKA"
+ },
+ {
+   "kode": 53.71,
+   "wilayah": "KOTA KUPANG"
+ },
+ {
+   "kode": 61.01,
+   "wilayah": "KAB. SAMBAS"
+ },
+ {
+   "kode": 61.02,
+   "wilayah": "KAB. MEMPAWAH"
+ },
+ {
+   "kode": 61.03,
+   "wilayah": "KAB. SANGGAU"
+ },
+ {
+   "kode": 61.04,
+   "wilayah": "KAB. KETAPANG"
+ },
+ {
+   "kode": 61.05,
+   "wilayah": "KAB. SINTANG"
+ },
+ {
+   "kode": 61.06,
+   "wilayah": "KAB. KAPUAS HULU"
+ },
+ {
+   "kode": 61.07,
+   "wilayah": "KAB. BENGKAYANG"
+ },
+ {
+   "kode": 61.08,
+   "wilayah": "KAB. LANDAK"
+ },
+ {
+   "kode": 61.09,
+   "wilayah": "KAB. SEKADAU"
+ },
+ {
+   "kode": 61.1,
+   "wilayah": "KAB. MELAWI"
+ },
+ {
+   "kode": 61.11,
+   "wilayah": "KAB. KAYONG UTARA"
+ },
+ {
+   "kode": 61.12,
+   "wilayah": "KAB. KUBU RAYA"
+ },
+ {
+   "kode": 61.71,
+   "wilayah": "KOTA PONTIANAK"
+ },
+ {
+   "kode": 61.72,
+   "wilayah": "KOTA SINGKAWANG"
+ },
+ {
+   "kode": 62.01,
+   "wilayah": "KAB. KOTAWARINGIN BARAT"
+ },
+ {
+   "kode": 62.02,
+   "wilayah": "KAB. KOTAWARINGIN TIMUR"
+ },
+ {
+   "kode": 62.03,
+   "wilayah": "KAB. KAPUAS"
+ },
+ {
+   "kode": 62.04,
+   "wilayah": "KAB. BARITO SELATAN"
+ },
+ {
+   "kode": 62.05,
+   "wilayah": "KAB. BARITO UTARA"
+ },
+ {
+   "kode": 62.06,
+   "wilayah": "KAB. KATINGAN"
+ },
+ {
+   "kode": 62.07,
+   "wilayah": "KAB. SERUYAN"
+ },
+ {
+   "kode": 62.08,
+   "wilayah": "KAB. SUKAMARA"
+ },
+ {
+   "kode": 62.09,
+   "wilayah": "KAB. LAMANDAU"
+ },
+ {
+   "kode": 62.1,
+   "wilayah": "KAB. GUNUNG MAS"
+ },
+ {
+   "kode": 62.11,
+   "wilayah": "KAB. PULANG PISAU"
+ },
+ {
+   "kode": 62.12,
+   "wilayah": "KAB. MURUNG RAYA"
+ },
+ {
+   "kode": 62.13,
+   "wilayah": "KAB. BARITO TIMUR"
+ },
+ {
+   "kode": 62.71,
+   "wilayah": "KOTA PALANGKARAYA"
+ },
+ {
+   "kode": 63.01,
+   "wilayah": "KAB. TANAH LAUT"
+ },
+ {
+   "kode": 63.02,
+   "wilayah": "KAB. KOTABARU"
+ },
+ {
+   "kode": 63.03,
+   "wilayah": "KAB. BANJAR"
+ },
+ {
+   "kode": 63.04,
+   "wilayah": "KAB. BARITO KUALA"
+ },
+ {
+   "kode": 63.05,
+   "wilayah": "KAB. TAPIN"
+ },
+ {
+   "kode": 63.06,
+   "wilayah": "KAB. HULU SUNGAI SELATAN"
+ },
+ {
+   "kode": 63.07,
+   "wilayah": "KAB. HULU SUNGAI TENGAH"
+ },
+ {
+   "kode": 63.08,
+   "wilayah": "KAB. HULU SUNGAI UTARA"
+ },
+ {
+   "kode": 63.09,
+   "wilayah": "KAB. TABALONG"
+ },
+ {
+   "kode": 63.1,
+   "wilayah": "KAB. TANAH BUMBU"
+ },
+ {
+   "kode": 63.11,
+   "wilayah": "KAB. BALANGAN"
+ },
+ {
+   "kode": 63.71,
+   "wilayah": "KOTA BANJARMASIN"
+ },
+ {
+   "kode": 63.72,
+   "wilayah": "KOTA BANJARBARU"
+ },
+ {
+   "kode": 64.01,
+   "wilayah": "KAB. PASER"
+ },
+ {
+   "kode": 64.02,
+   "wilayah": "KAB. KUTAI KARTANEGARA"
+ },
+ {
+   "kode": 64.03,
+   "wilayah": "KAB. BERAU"
+ },
+ {
+   "kode": 64.07,
+   "wilayah": "KAB. KUTAI BARAT"
+ },
+ {
+   "kode": 64.08,
+   "wilayah": "KAB. KUTAI TIMUR"
+ },
+ {
+   "kode": 64.09,
+   "wilayah": "KAB. PENAJAM PASER UTARA"
+ },
+ {
+   "kode": 64.11,
+   "wilayah": "KAB. MAHAKAM ULU"
+ },
+ {
+   "kode": 64.71,
+   "wilayah": "KOTA BALIKPAPAN"
+ },
+ {
+   "kode": 64.72,
+   "wilayah": "KOTA SAMARINDA"
+ },
+ {
+   "kode": 64.74,
+   "wilayah": "KOTA BONTANG"
+ },
+ {
+   "kode": 65.01,
+   "wilayah": "KAB. BULUNGAN"
+ },
+ {
+   "kode": 65.02,
+   "wilayah": "KAB. MALINAU"
+ },
+ {
+   "kode": 65.03,
+   "wilayah": "KAB. NUNUKAN"
+ },
+ {
+   "kode": 65.04,
+   "wilayah": "KAB. TANA TIDUNG"
+ },
+ {
+   "kode": 65.71,
+   "wilayah": "KOTA TARAKAN"
+ },
+ {
+   "kode": 71.01,
+   "wilayah": "KAB. BOLAANG MONGONDOW"
+ },
+ {
+   "kode": 71.02,
+   "wilayah": "KAB. MINAHASA"
+ },
+ {
+   "kode": 71.03,
+   "wilayah": "KAB. KEPULAUAN SANGIHE"
+ },
+ {
+   "kode": 71.04,
+   "wilayah": "KAB. KEPULAUAN TALAUD"
+ },
+ {
+   "kode": 71.05,
+   "wilayah": "KAB. MINAHASA SELATAN"
+ },
+ {
+   "kode": 71.06,
+   "wilayah": "KAB. MINAHASA UTARA"
+ },
+ {
+   "kode": 71.07,
+   "wilayah": "KAB. MINAHASA TENGGARA"
+ },
+ {
+   "kode": 71.08,
+   "wilayah": "KAB. BOLAANG MONGONDOWUTARA"
+ },
+ {
+   "kode": 71.09,
+   "wilayah": "KAB. KEP. SIAU TAGULANDANGBIARO"
+ },
+ {
+   "kode": 71.1,
+   "wilayah": "KAB. BOLAANG MONGONDOWTIMUR"
+ },
+ {
+   "kode": 71.11,
+   "wilayah": "KAB. BOLAANG MONGONDOWSELATAN"
+ },
+ {
+   "kode": 71.71,
+   "wilayah": "KOTA MANADO"
+ },
+ {
+   "kode": 71.72,
+   "wilayah": "KOTA BITUNG"
+ },
+ {
+   "kode": 71.73,
+   "wilayah": "KOTA TOMOHON"
+ },
+ {
+   "kode": 71.74,
+   "wilayah": "KOTA KOTAMOBAGU"
+ },
+ {
+   "kode": 72.01,
+   "wilayah": "KAB. BANGGAI"
+ },
+ {
+   "kode": 72.02,
+   "wilayah": "KAB. POSO"
+ },
+ {
+   "kode": 72.03,
+   "wilayah": "KAB. DONGGALA"
+ },
+ {
+   "kode": 72.04,
+   "wilayah": "KAB. TOLI TOLI"
+ },
+ {
+   "kode": 72.05,
+   "wilayah": "KAB. BUOL"
+ },
+ {
+   "kode": 72.06,
+   "wilayah": "KAB. MOROWALI"
+ },
+ {
+   "kode": 72.07,
+   "wilayah": "KAB. BANGGAI KEPULAUAN"
+ },
+ {
+   "kode": 72.08,
+   "wilayah": "KAB. PARIGI MOUTONG"
+ },
+ {
+   "kode": 72.09,
+   "wilayah": "KAB. TOJO UNA UNA"
+ },
+ {
+   "kode": 72.1,
+   "wilayah": "KAB. SIGI"
+ },
+ {
+   "kode": 72.11,
+   "wilayah": "KAB. BANGGAI LAUT"
+ },
+ {
+   "kode": 72.12,
+   "wilayah": "KAB. MOROWALI UTARA"
+ },
+ {
+   "kode": 72.71,
+   "wilayah": "KOTA PALU"
+ },
+ {
+   "kode": 73.01,
+   "wilayah": "KAB. KEPULAUAN SELAYAR"
+ },
+ {
+   "kode": 73.02,
+   "wilayah": "KAB. BULUKUMBA"
+ },
+ {
+   "kode": 73.03,
+   "wilayah": "KAB. BANTAENG"
+ },
+ {
+   "kode": 73.04,
+   "wilayah": "KAB. JENEPONTO"
+ },
+ {
+   "kode": 73.05,
+   "wilayah": "KAB. TAKALAR"
+ },
+ {
+   "kode": 73.06,
+   "wilayah": "KAB. GOWA"
+ },
+ {
+   "kode": 73.07,
+   "wilayah": "KAB. SINJAI"
+ },
+ {
+   "kode": 73.08,
+   "wilayah": "KAB. BONE"
+ },
+ {
+   "kode": 73.09,
+   "wilayah": "KAB. MAROS"
+ },
+ {
+   "kode": 73.1,
+   "wilayah": "KAB. PANGKAJENE KEPULAUAN"
+ },
+ {
+   "kode": 73.11,
+   "wilayah": "KAB. BARRU"
+ },
+ {
+   "kode": 73.12,
+   "wilayah": "KAB. SOPPENG"
+ },
+ {
+   "kode": 73.13,
+   "wilayah": "KAB. WAJO"
+ },
+ {
+   "kode": 73.14,
+   "wilayah": "KAB. SIDENRENG RAPPANG"
+ },
+ {
+   "kode": 73.15,
+   "wilayah": "KAB. PINRANG"
+ },
+ {
+   "kode": 73.16,
+   "wilayah": "KAB. ENREKANG"
+ },
+ {
+   "kode": 73.17,
+   "wilayah": "KAB. LUWU"
+ },
+ {
+   "kode": 73.18,
+   "wilayah": "KAB. TANA TORAJA"
+ },
+ {
+   "kode": 73.22,
+   "wilayah": "KAB. LUWU UTARA"
+ },
+ {
+   "kode": 73.24,
+   "wilayah": "KAB. LUWU TIMUR"
+ },
+ {
+   "kode": 73.26,
+   "wilayah": "KAB. TORAJA UTARA"
+ },
+ {
+   "kode": 73.71,
+   "wilayah": "KOTA MAKASSAR"
+ },
+ {
+   "kode": 73.72,
+   "wilayah": "KOTA PARE PARE"
+ },
+ {
+   "kode": 73.73,
+   "wilayah": "KOTA PALOPO"
+ },
+ {
+   "kode": 74.01,
+   "wilayah": "KAB. KOLAKA"
+ },
+ {
+   "kode": 74.02,
+   "wilayah": "KAB. KONAWE"
+ },
+ {
+   "kode": 74.03,
+   "wilayah": "KAB. MUNA"
+ },
+ {
+   "kode": 74.04,
+   "wilayah": "KAB. BUTON"
+ },
+ {
+   "kode": 74.05,
+   "wilayah": "KAB. KONAWE SELATAN"
+ },
+ {
+   "kode": 74.06,
+   "wilayah": "KAB. BOMBANA"
+ },
+ {
+   "kode": 74.07,
+   "wilayah": "KAB. WAKATOBI"
+ },
+ {
+   "kode": 74.08,
+   "wilayah": "KAB. KOLAKA UTARA"
+ },
+ {
+   "kode": 74.09,
+   "wilayah": "KAB. KONAWE UTARA"
+ },
+ {
+   "kode": 74.1,
+   "wilayah": "KAB. BUTON UTARA"
+ },
+ {
+   "kode": 74.11,
+   "wilayah": "KAB. KOLAKA TIMUR"
+ },
+ {
+   "kode": 74.12,
+   "wilayah": "KAB. KONAWE KEPULAUAN"
+ },
+ {
+   "kode": 74.13,
+   "wilayah": "KAB. MUNA BARAT"
+ },
+ {
+   "kode": 74.14,
+   "wilayah": "KAB. BUTON TENGAH"
+ },
+ {
+   "kode": 74.15,
+   "wilayah": "KAB. BUTON SELATAN"
+ },
+ {
+   "kode": 74.71,
+   "wilayah": "KOTA KENDARI"
+ },
+ {
+   "kode": 74.72,
+   "wilayah": "KOTA BAU BAU"
+ },
+ {
+   "kode": 75.01,
+   "wilayah": "KAB. GORONTALO"
+ },
+ {
+   "kode": 75.02,
+   "wilayah": "KAB. BOALEMO"
+ },
+ {
+   "kode": 75.03,
+   "wilayah": "KAB. BONE BOLANGO"
+ },
+ {
+   "kode": 75.04,
+   "wilayah": "KAB. PAHUWATO"
+ },
+ {
+   "kode": 75.05,
+   "wilayah": "KAB. GORONTALO UTARA"
+ },
+ {
+   "kode": 75.71,
+   "wilayah": "KOTA GORONTALO"
+ },
+ {
+   "kode": 76.01,
+   "wilayah": "KAB. PASANGKAYU"
+ },
+ {
+   "kode": 76.02,
+   "wilayah": "KAB. MAMUJU"
+ },
+ {
+   "kode": 76.03,
+   "wilayah": "KAB. MAMASA"
+ },
+ {
+   "kode": 76.04,
+   "wilayah": "KAB. POLEWALI MANDAR"
+ },
+ {
+   "kode": 76.05,
+   "wilayah": "KAB. MAJENE"
+ },
+ {
+   "kode": 76.06,
+   "wilayah": "KAB. MAMUJU TENGAH"
+ },
+ {
+   "kode": 81.01,
+   "wilayah": "KAB. MALUKU TENGAH"
+ },
+ {
+   "kode": 81.02,
+   "wilayah": "KAB. MALUKU TENGGARA"
+ },
+ {
+   "kode": 81.03,
+   "wilayah": "KAB. KEPULAUAN TANIMBAR"
+ },
+ {
+   "kode": 81.04,
+   "wilayah": "KAB. BURU"
+ },
+ {
+   "kode": 81.05,
+   "wilayah": "KAB. SERAM BAGIAN TIMUR"
+ },
+ {
+   "kode": 81.06,
+   "wilayah": "KAB. SERAM BAGIAN BARAT"
+ },
+ {
+   "kode": 81.07,
+   "wilayah": "KAB. KEPULAUAN ARU"
+ },
+ {
+   "kode": 81.08,
+   "wilayah": "KAB. MALUKU BARAT DAYA"
+ },
+ {
+   "kode": 81.09,
+   "wilayah": "KAB. BURU SELATAN"
+ },
+ {
+   "kode": 81.71,
+   "wilayah": "KOTA AMBON"
+ },
+ {
+   "kode": 81.72,
+   "wilayah": "KOTA TUAL"
+ },
+ {
+   "kode": 82.01,
+   "wilayah": "KAB. HALMAHERA BARAT"
+ },
+ {
+   "kode": 82.02,
+   "wilayah": "KAB. HALMAHERA TENGAH"
+ },
+ {
+   "kode": 82.03,
+   "wilayah": "KAB. HALMAHERA UTARA"
+ },
+ {
+   "kode": 82.04,
+   "wilayah": "KAB. HALMAHERA SELATAN"
+ },
+ {
+   "kode": 82.05,
+   "wilayah": "KAB. KEPULAUAN SULA"
+ },
+ {
+   "kode": 82.06,
+   "wilayah": "KAB. HALMAHERA TIMUR"
+ },
+ {
+   "kode": 82.07,
+   "wilayah": "KAB. PULAU MOROTAI"
+ },
+ {
+   "kode": 82.08,
+   "wilayah": "KAB. PULAU TALIABU"
+ },
+ {
+   "kode": 82.71,
+   "wilayah": "KOTA TERNATE"
+ },
+ {
+   "kode": 82.72,
+   "wilayah": "KOTA TIDORE KEPULAUAN"
+ },
+ {
+   "kode": 91.01,
+   "wilayah": "KAB. MERAUKE"
+ },
+ {
+   "kode": 91.02,
+   "wilayah": "KAB. JAYAWIJAYA"
+ },
+ {
+   "kode": 91.03,
+   "wilayah": "KAB. JAYAPURA"
+ },
+ {
+   "kode": 91.04,
+   "wilayah": "KAB. NABIRE"
+ },
+ {
+   "kode": 91.05,
+   "wilayah": "KAB. KEPULAUAN YAPEN"
+ },
+ {
+   "kode": 91.06,
+   "wilayah": "KAB. BIAK NUMFOR"
+ },
+ {
+   "kode": 91.07,
+   "wilayah": "KAB. PUNCAK JAYA"
+ },
+ {
+   "kode": 91.08,
+   "wilayah": "KAB. PANIAI"
+ },
+ {
+   "kode": 91.09,
+   "wilayah": "KAB. MIMIKA"
+ },
+ {
+   "kode": 91.1,
+   "wilayah": "KAB. SARMI"
+ },
+ {
+   "kode": 91.11,
+   "wilayah": "KAB. KEEROM"
+ },
+ {
+   "kode": 91.12,
+   "wilayah": "KAB PEGUNUNGAN BINTANG"
+ },
+ {
+   "kode": 91.13,
+   "wilayah": "KAB. YAHUKIMO"
+ },
+ {
+   "kode": 91.14,
+   "wilayah": "KAB. TOLIKARA"
+ },
+ {
+   "kode": 91.15,
+   "wilayah": "KAB. WAROPEN"
+ },
+ {
+   "kode": 91.16,
+   "wilayah": "KAB. BOVEN DIGOEL"
+ },
+ {
+   "kode": 91.17,
+   "wilayah": "KAB. MAPPI"
+ },
+ {
+   "kode": 91.18,
+   "wilayah": "KAB. ASMAT"
+ },
+ {
+   "kode": 91.19,
+   "wilayah": "KAB. SUPIORI"
+ },
+ {
+   "kode": 91.2,
+   "wilayah": "KAB. MAMBERAMO RAYA"
+ },
+ {
+   "kode": 91.21,
+   "wilayah": "KAB. MAMBERAMO TENGAH"
+ },
+ {
+   "kode": 91.22,
+   "wilayah": "KAB. YALIMO"
+ },
+ {
+   "kode": 91.23,
+   "wilayah": "KAB. LANNY JAYA"
+ },
+ {
+   "kode": 91.24,
+   "wilayah": "KAB. NDUGA"
+ },
+ {
+   "kode": 91.25,
+   "wilayah": "KAB. PUNCAK"
+ },
+ {
+   "kode": 91.26,
+   "wilayah": "KAB. DOGIYAI"
+ },
+ {
+   "kode": 91.27,
+   "wilayah": "KAB. INTAN JAYA"
+ },
+ {
+   "kode": 91.28,
+   "wilayah": "KAB. DEIYAI"
+ },
+ {
+   "kode": 91.71,
+   "wilayah": "KOTA JAYAPURA"
+ },
+ {
+   "kode": 92.01,
+   "wilayah": "KAB. SORONG"
+ },
+ {
+   "kode": 92.02,
+   "wilayah": "KAB. MANOKWARI"
+ },
+ {
+   "kode": 92.03,
+   "wilayah": "KAB. FAK FAK"
+ },
+ {
+   "kode": 92.04,
+   "wilayah": "KAB. SORONG SELATAN"
+ },
+ {
+   "kode": 92.05,
+   "wilayah": "KAB. RAJA AMPAT"
+ },
+ {
+   "kode": 92.06,
+   "wilayah": "KAB. TELUK BINTUNI"
+ },
+ {
+   "kode": 92.07,
+   "wilayah": "KAB. TELUK WONDAMA"
+ },
+ {
+   "kode": 92.08,
+   "wilayah": "KAB. KAIMANA"
+ },
+ {
+   "kode": 92.09,
+   "wilayah": "KAB. TAMBRAUW"
+ },
+ {
+   "kode": 92.1,
+   "wilayah": "KAB. MAYBRAT"
+ },
+ {
+   "kode": 92.11,
+   "wilayah": "KAB. MANOKWARI SELATAN"
+ },
+ {
+   "kode": 92.12,
+   "wilayah": "KAB. PEGUNUNGAN ARFAK"
+ },
+ {
+   "kode": 92.71,
+   "wilayah": "KOTA SORONG"
+ }
+]
