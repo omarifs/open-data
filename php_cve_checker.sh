@@ -1,5 +1,5 @@
 #!/bin/bash
-# Multi-Panel Intelligent PHP Patch Checker with Dynamic Changelog Mapping
+# Multi-Panel Intelligent Custom PHP Patch Checker
 
 clear
 echo -e "\e[36m======================================================================\e[0m"
@@ -16,10 +16,14 @@ else
     echo -e "👉 \e[1;31mACTIVE CLI PHP:\e[0m Standard 'php' alias command not found in this environment."
 fi
 
-# 2. Control Panel Engine Discovery
+# 2. Control Panel Engine Discovery & Path Dynamic Mapping
 PANEL_TYPE="Unknown"
+declare -a SCAN_PATHS
+
 if [ -d "/usr/local/lsws" ] || [ -d "/usr/local/CyberPanel" ]; then
     PANEL_TYPE="olspanel / CyberPanel (OpenLiteSpeed)"
+    # olspanel maps binaries directly into /usr/local/lsws/lsphpXX/bin/php
+    SCAN_PATHS=("/usr/local/lsws/lsphp" "/usr/local/lsws/lsphp")
     PANEL_CODE="ols"
 elif [ -d "/usr/local/cpanel" ]; then
     PANEL_TYPE="cPanel"
@@ -32,17 +36,19 @@ elif [ -d "/usr/local/directadmin" ]; then
     PANEL_CODE="directadmin"
 elif [ -d "/www/server/panel" ]; then
     PANEL_TYPE="aaPanel"
+    # aaPanel tracks binaries inside /www/server/php/XX/bin/php
     PANEL_CODE="aapanel"
 else
+    # Fallback for vanilla standalone CloudLinux / Ubuntu distributions
     PANEL_TYPE="Standard CloudLinux / LVE Isolated System"
     PANEL_CODE="cloudlinux"
 fi
 
 echo -e "🖥️  \e[1;34mDETECTED PANEL:\e[0m System running under \e[1;32m$PANEL_TYPE\e[0m hosting infrastructure.\n"
 
-# Table Header with Changelog Reference Column
-printf "%-22s | %-20s | %-16s | %-45s\n" "PHP HANDLER / VER" "BUILD DATE" "PATCH STATUS" "CHANGELOG REFERENCE"
-echo "----------------------------------------------------------------------------------------------------------------"
+# Table Header
+printf "%-24s | %-22s | %-15s\n" "PANEL PHP HANDLER" "BUILD DATE" "PATCH STATUS"
+echo "----------------------------------------------------------------------"
 
 # Supported target matrix 
 VERSIONS=("56" "70" "71" "72" "73" "74" "80" "81" "82" "83" "84" "85")
@@ -50,7 +56,6 @@ VERSIONS=("56" "70" "71" "72" "73" "74" "80" "81" "82" "83" "84" "85")
 check_php_binary() {
     local label=$1
     local bin_path=$2
-    local v_num=$3
 
     unset BUILD_DATE BASE_VER IS_PATCHED STATUS_TEXT
     if [ -f "$bin_path" ]; then
@@ -74,46 +79,45 @@ check_php_binary() {
             label="$label \e[1;35m(ACTIVE)\e[0m"
         fi
         
-        # Dynamic Changelog Link Generation
-        CHANGELOG_URL="https://cloudlinux.com{v_num}"
-        
-        printf "%-32s | %-20s | %-25b | \e[4;34m%s\e[0m\n" "$label ($BASE_VER)" "$BUILD_DATE" "$STATUS_TEXT" "$CHANGELOG_URL"
+        printf "%-34s | %-22s | %b\n" "$label ($BASE_VER)" "$BUILD_DATE" "$STATUS_TEXT"
     fi
 }
 
-# 3. Conditional Array Processor
+# 3. Conditional Array Processor (Ensures ONLY the active panel rules are executed)
 for V in "${VERSIONS[@]}"; do
     DOT_VER="${V:0:1}.${V:1:1}"
     
     case $PANEL_CODE in
         ols)
-            check_php_binary "OLSP-lsphp $DOT_VER" "/usr/local/lsws/lsphp${V}/bin/php" "$V"
+            # Scan exclusive to OpenLiteSpeed Panel (olspanel) architectures
+            check_php_binary "OLSP-lsphp $DOT_VER" "/usr/local/lsws/lsphp${V}/bin/php"
             ;;
         cpanel)
-            check_php_binary "Alt-PHP $DOT_VER" "/opt/alt/php${V}/usr/bin/php" "$V"
-            check_php_binary "ea-PHP $DOT_VER" "/opt/cpanel/ea-php${V}/root/usr/bin/php" "$V"
+            check_php_binary "Alt-PHP $DOT_VER" "/opt/alt/php${V}/usr/bin/php"
+            check_php_binary "ea-PHP $DOT_VER" "/opt/cpanel/ea-php${V}/root/usr/bin/php"
             ;;
         plesk)
-            check_php_binary "Plesk-PHP $DOT_VER" "/opt/plesk/php/$DOT_VER/bin/php" "$V"
-            check_php_binary "Alt-PHP $DOT_VER" "/opt/alt/php${V}/usr/bin/php" "$V"
+            check_php_binary "Plesk-PHP $DOT_VER" "/opt/plesk/php/$DOT_VER/bin/php"
+            check_php_binary "Alt-PHP $DOT_VER" "/opt/alt/php${V}/usr/bin/php"
             ;;
         directadmin)
-            check_php_binary "DA-Custom $DOT_VER" "/usr/local/php${V}/bin/php" "$V"
-            check_php_binary "Alt-PHP $DOT_VER" "/opt/alt/php${V}/usr/bin/php" "$V"
+            check_php_binary "DA-Custom $DOT_VER" "/usr/local/php${V}/bin/php"
+            check_php_binary "Alt-PHP $DOT_VER" "/opt/alt/php${V}/usr/bin/php"
             ;;
         aapanel)
-            check_php_binary "aaPanel-PHP $DOT_VER" "/www/server/php/${V}/bin/php" "$V"
+            check_php_binary "aaPanel-PHP $DOT_VER" "/www/server/php/${V}/bin/php"
             ;;
         cloudlinux)
-            check_php_binary "Alt-PHP $DOT_VER" "/opt/alt/php${V}/usr/bin/php" "$V"
-            check_php_binary "System-PHP Native" "/usr/bin/php" "$V"
+            check_php_binary "Alt-PHP $DOT_VER" "/opt/alt/php${V}/usr/bin/php"
+            check_php_binary "System-PHP Native" "/usr/bin/php"
             ;;
     esac
 done
 
-echo "----------------------------------------------------------------------------------------------------------------"
-echo -e "\e[1;36m💡 Info Validasi Keamanan:\e[0m"
-echo -e "Sistem kami menerapkan patch via 'Backporting'. Angka versi PHP Anda akan tetap sama,"
-echo -e "namun kode keamanan di dalamnya telah diperbarui. Silakan klik/buka tautan referensi"
-echo -e "di atas untuk mencocokkan log rilis resmi dari CloudLinux secara detail."
-echo -e "\e[36m====================================================================================================\e[0m"
+echo "----------------------------------------------------------------------"
+echo -e "\e[1;34m🔗 OFFICIAL SECURITY BULLETIN:\e[0m"
+echo -e "Read vendor data logs: https://cloudlinux.com"
+echo -e "\n\e[1;36m💡 How We Validate Your Account Security:\e[0m"
+echo -e "Web hosts use a system called 'Backporting'. Your PHP version text remains"
+echo -e "the same, but the core security code has been safely patched inside."
+echo -e "\e[36m======================================================================\e[0m"
