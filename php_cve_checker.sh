@@ -1,5 +1,5 @@
 #!/bin/bash
-# Save this file as checker.sh on your GitHub repository
+# Save this file as cve-checker.sh on your GitHub repository
 
 clear
 echo -e "\e[36m======================================================\e[0m"
@@ -8,49 +8,56 @@ echo -e "\e[36m======================================================\e[0m"
 echo -e "Automated patch verification for CVE-2026-109618 & CVE-2026-109619\n"
 
 # Table Header
-printf "%-12s | %-22s | %-15s\n" "PHP VERSION" "BUILD TIMESTAMP" "PATCH STATUS"
+printf "%-12s | %-20s | %-15s\n" "PHP VERSION" "FULL RELEASE VERSION" "PATCH STATUS"
 echo "------------------------------------------------------"
 
 # List of alt-php versions to scan
 PHP_VERSIONS=("php81" "php82" "php83" "php84" "php85")
 
-# Official CloudLinux Secure Release Timestamp (Oct 21, 2026 22:22:00)
-SAFE_TIMESTAMP=1792621320 
-
-HAS_OUTDATED=0
-
 for VERSION in "${PHP_VERSIONS[@]}"; do
     PHP_PATH="/opt/alt/${VERSION}/usr/bin/php"
     
     if [ -f "$PHP_PATH" ]; then
-        # Extract the build date from php -v
-        BUILD_DATE=$($PHP_PATH -v | grep -oE "built: [A-Za-z0-9: ]+" | sed 's/built: //')
+        # 1. Get base version (e.g., 8.5.11)
+        BASE_VER=$($PHP_PATH -v | head -n 1 | awk '{print $2}')
         
-        if [ ! -z "$BUILD_DATE" ]; then
-            # Convert build date to Epoch seconds
-            BUILD_EPOCH=$(date -d "$BUILD_DATE" +%s 2>/dev/null)
+        # 2. Extract CloudLinux full release build tag from binary strings (e.g., 8.5.11-4)
+        # CageFS allows users to read the binary file they execute
+        FULL_VER=$(strings "$PHP_PATH" 2>/dev/null | grep -E "^[0-9]+\.[0-9]+\.[0-9]+-[0-9]+" | head -n 1)
+        
+        # Fallback if strings tracking is restricted
+        if [ -z "$FULL_VER" ]; then
+            RELEASE_BUILD=$($PHP_PATH -v | grep -oE "built: [A-Za-z0-9: ]+" | sed 's/built: //')
+            FULL_VER="${BASE_VER} (Custom Build)"
             
-            # Format display name (e.g., PHP 8.5)
-            DISPLAY_NAME="PHP ${VERSION:3:1}.${VERSION:4:1}"
-            
-            if [ "$BUILD_EPOCH" -ge "$SAFE_TIMESTAMP" ]; then
+            # Epoch check fallback (Oct 21 2026 22:22:00)
+            BUILD_EPOCH=$(date -d "$RELEASE_BUILD" +%s 2>/dev/null)
+            if [ "$BUILD_EPOCH" -ge 1792621320 ]; then
                 STATUS_TEXT="\e[32mSECURE (Build -4+)\e[0m"
             else
                 STATUS_TEXT="\e[31mNOT PATCHED\e[0m"
-                HAS_OUTDATED=1
             fi
+        else
+            # Extract the build number after the dash (e.g., the '4' in 8.5.11-4)
+            BUILD_NUM=$(echo "$FULL_VER" | cut -d'-' -f2)
             
-            printf "%-12s | %-22s | %b\n" "$DISPLAY_NAME" "$BUILD_DATE" "$STATUS_TEXT"
+            if [ "$BUILD_NUM" -ge 4 ]; then
+                STATUS_TEXT="\e[32mSECURE (Build -$BUILD_NUM)\e[0m"
+            else
+                STATUS_TEXT="\e[31mNOT PATCHED (-$BUILD_NUM)\e[0m"
+            fi
         fi
+        
+        DISPLAY_NAME="PHP ${VERSION:3:1}.${VERSION:4:1}"
+        printf "%-12s | %-20s | %b\n" "$DISPLAY_NAME" "$FULL_VER" "$STATUS_TEXT"
     fi
 done
 
 echo -e "\e[36m------------------------------------------------------\e[0m"
-
-# Educational Note to prevent user confusion about the "Oct 21" date
-echo -e "\e[1;34m💡 NOTE ABOUT THE DATE:\e[0m"
-echo -e "CloudLinux officially released the secure patch build on \e[33mOctober 21, 2026\e[0m."
-echo -e "If your timestamp shows Oct 21 (Night Build), it means your account was"
-echo -e "successfully updated to the latest secure version immediately when it dropped.\n"
-echo -e "Official Changelog reference: https://cloudlinux.com"
+echo -e "\e[1;34m🔗 OFFICIAL CHANGELOG REFERENCE:\e[0m"
+echo -e "You can cross-reference your Full Release Version directly with CloudLinux:"
+echo -e "👉 \e[4;32mhttps://changelog.cloudlinux.com/alt-php85\e[0m"
+echo -e "\n\e[1;36m💡 Verification Guide:\e[0m"
+echo -e "If your release version shows \e[1;32m-4\e[0m or higher, your account is fully secure"
+echo -e "and successfully protected against the latest CVE vulnerabilities."
 echo -e "\e[36m======================================================\e[0m"
