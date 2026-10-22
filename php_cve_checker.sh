@@ -121,3 +121,4 @@ echo -e "\n\e[1;36m💡 How We Validate Your Account Security:\e[0m"
 echo -e "Web hosts use a system called 'Backporting'. Your PHP version text remains"
 echo -e "the same, but the core security code has been safely patched inside."
 echo -e "\e[36m======================================================================\e[0m"
+
